@@ -14,8 +14,8 @@ app.use(express.static(path.join(__dirname,"public")))
 app.use(cors());
 app.options('*',cors());
 
-let DB = `mongodb+srv://cms:<password>@cluster0.ibisiwq.mongodb.net/?retryWrites=true&w=majority`
-password = 'b9yq4d8FZPNGzIqy'
+let DB = `Your DB Link`
+password = 'Your Password'
 
 DB = DB.replace('<password>',password)
 
